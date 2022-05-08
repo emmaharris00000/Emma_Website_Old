@@ -8,5 +8,4 @@ urlpatterns = [
     path ("", views.index, name = "cv"),
     path ("", views.index, name = "contact"),
     path ("", views.index, name = "art"),
-    
 ]
