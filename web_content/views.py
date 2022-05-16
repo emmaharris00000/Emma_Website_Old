@@ -13,3 +13,6 @@ def contact(request):
 
 def art(request):
     return render(request, "art.html")
+
+def art(request):
+    return render(request, "art.html")

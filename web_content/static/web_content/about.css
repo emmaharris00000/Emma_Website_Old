@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    background: #222;
+    font-family: 'Work Sans', sans-sarif;
+    font-weight: 400;
+}
+
+/* nav bar */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #E9e9e1;
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+h2 a {
+    text-decoration: none;
+    display: inline-block;
+    color: #444;
+    text-transform: uppercase;
+    font-size: 25px;
+    
+
+
+    position: relative;
+
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+
+    position: relative;
+}
+
+nav a {
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px ;
+    width: 100%;
+    background-color: #444;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+/* home text */
+
+
+
+.hometext {
+    margin-top: 200px;
+    text-align: center;
+}
+.hometext button {
+    font-size: 30pt;
+    font-family: 'Times New Roman', Times, serif;
+    color: palevioletred;
+    text-decoration: none;
+    background-color: #E9e9e1;
+    cursor: pointer;
+    transition-duration: .1s;
+
+}
+.hometext button:hover {
+    background-color: #e9e9e1b9;
+    color: white;
+}
+
+
+
+
+
+/* social media clickthrough*/
+
+
+.s-m {
+    margin: 310px auto;
+    justify-content: space-around;
+    display: flex;
+    max-width: 700px;
+  }
+  .s-m a {
+    text-decoration: none;
+    font-size: 28px;
+    color: #444;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    transition: .4s all;
+    line-height: 58px;
+    cursor: pointer;
+    background: #E9e9e1;
+    border-radius: 50%;
+  
+  }
+  
+  .s-m a img {
+    max-height: 30px;
+    max-width: 30px;
+  }
+  .s-m a:hover {
+    transform: scale(1.1)
+  }
